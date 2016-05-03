@@ -1,0 +1,82 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University/School Laboratory Report
+% LaTeX Template
+% Version 3.1 (25/3/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Linux and Unix Users Group at Virginia Tech Wiki 
+% (https://vtluug.org/wiki/Example_LaTeX_chem_lab_report)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{gensymb}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+
+%Code packages
+
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+% Code packages end
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Potential Well\\ Class Fourteen Summary\\ PHY 230} % Title
+
+\author{Avi \textsc{Vajpeyi}} % Author name
+
+\date{\today} % Date for the report
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+
+
+
+% If you wish to include an abstract, uncomment the lines below
+% \begin{abstract}
+% Abstract text
+% \end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Time dependant Schrodinger Wave Equation Application}
+
+I thoroughly enjoyed working on this assignment. First, we began working on a simple project that we called `Line', in which we learned how to draw a line on a screen, give it a value for the position, and move it by dragging it on the screen. We also learned how to trigger sounds, and how to set an image as the background of a screen.\\ 
+
+We then reviewed the theory for the time dependent SWE, and then were given some coding tips to make an app for a potential well using the theory. While working on the app, I initially attempted at drawing a stationary potential well, energy line, and a standing psi wave. I believe that this was the most challenging part of the project for me, and had several bugs that were difficult to pick out. However, NSLog statements through out my code saved the day. They helped me figure out that I had some of my formulae incorrectly inputted.
+
+The second bit which I found tricky was the dragging of the psi wave. I managed to get it to drag, but was just very buggy. I would move the wave, and instead of moving with my cursor, it would instead flip. After exchanging several emails with Dr.Lindner, I realized that I had my formula to update the psi scale incorrect. 
+ 
+%----------------------------------------------------------------------------------------
+
+
+\end{document}

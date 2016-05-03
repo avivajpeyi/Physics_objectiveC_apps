@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C43037FE1C8CD1B40042416C /* Potentials.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C43037FD1C8CD1B40042416C /* Potentials.jpg */; };
+		C480647A1C84CC1A007C2899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48064791C84CC1A007C2899 /* main.m */; };
+		C480647C1C84CC1A007C2899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C480647B1C84CC1A007C2899 /* Assets.xcassets */; };
+		C480647F1C84CC1A007C2899 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C480647D1C84CC1A007C2899 /* MainMenu.xib */; };
+		C49C6E061C87EA64004C721E /* ChaosScattering.M in Sources */ = {isa = PBXBuildFile; fileRef = C49C6E051C87EA64004C721E /* ChaosScattering.M */; };
+		C4A5962D1C95DC9900EA2119 /* Potentials-Small.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C4A5962C1C95DC9900EA2119 /* Potentials-Small.pdf */; };
+		C4D0E8821CC720FF005EA83B /* ChaosImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4D0E8811CC720FF005EA83B /* ChaosImage.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C43037FD1C8CD1B40042416C /* Potentials.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Potentials.jpg; sourceTree = "<group>"; };
+		C48064721C84CC1A007C2899 /* ChaosScattering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaosScattering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48064791C84CC1A007C2899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C480647B1C84CC1A007C2899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C480647E1C84CC1A007C2899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C48064801C84CC1A007C2899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49C6E041C87EA64004C721E /* ChaosScattering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaosScattering.h; sourceTree = "<group>"; };
+		C49C6E051C87EA64004C721E /* ChaosScattering.M */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ChaosScattering.M; sourceTree = "<group>"; };
+		C4A5962C1C95DC9900EA2119 /* Potentials-Small.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Potentials-Small.pdf"; sourceTree = "<group>"; };
+		C4D0E8811CC720FF005EA83B /* ChaosImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChaosImage.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C480646F1C84CC1A007C2899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48064691C84CC1A007C2899 = {
+			isa = PBXGroup;
+			children = (
+				C48064741C84CC1A007C2899 /* ChaosScattering */,
+				C48064731C84CC1A007C2899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48064731C84CC1A007C2899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48064721C84CC1A007C2899 /* ChaosScattering.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48064741C84CC1A007C2899 /* ChaosScattering */ = {
+			isa = PBXGroup;
+			children = (
+				C4D0E8811CC720FF005EA83B /* ChaosImage.jpg */,
+				C43037FD1C8CD1B40042416C /* Potentials.jpg */,
+				C4A5962C1C95DC9900EA2119 /* Potentials-Small.pdf */,
+				C49C6E041C87EA64004C721E /* ChaosScattering.h */,
+				C49C6E051C87EA64004C721E /* ChaosScattering.M */,
+				C480647B1C84CC1A007C2899 /* Assets.xcassets */,
+				C480647D1C84CC1A007C2899 /* MainMenu.xib */,
+				C48064801C84CC1A007C2899 /* Info.plist */,
+				C48064781C84CC1A007C2899 /* Supporting Files */,
+			);
+			path = ChaosScattering;
+			sourceTree = "<group>";
+		};
+		C48064781C84CC1A007C2899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48064791C84CC1A007C2899 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48064711C84CC1A007C2899 /* ChaosScattering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48064831C84CC1A007C2899 /* Build configuration list for PBXNativeTarget "ChaosScattering" */;
+			buildPhases = (
+				C480646E1C84CC1A007C2899 /* Sources */,
+				C480646F1C84CC1A007C2899 /* Frameworks */,
+				C48064701C84CC1A007C2899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaosScattering;
+			productName = ChaosScattering;
+			productReference = C48064721C84CC1A007C2899 /* ChaosScattering.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C480646A1C84CC1A007C2899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AVI;
+				TargetAttributes = {
+					C48064711C84CC1A007C2899 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C480646D1C84CC1A007C2899 /* Build configuration list for PBXProject "ChaosScattering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C48064691C84CC1A007C2899;
+			productRefGroup = C48064731C84CC1A007C2899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48064711C84CC1A007C2899 /* ChaosScattering */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48064701C84CC1A007C2899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43037FE1C8CD1B40042416C /* Potentials.jpg in Resources */,
+				C4A5962D1C95DC9900EA2119 /* Potentials-Small.pdf in Resources */,
+				C480647C1C84CC1A007C2899 /* Assets.xcassets in Resources */,
+				C4D0E8821CC720FF005EA83B /* ChaosImage.jpg in Resources */,
+				C480647F1C84CC1A007C2899 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C480646E1C84CC1A007C2899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49C6E061C87EA64004C721E /* ChaosScattering.M in Sources */,
+				C480647A1C84CC1A007C2899 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C480647D1C84CC1A007C2899 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C480647E1C84CC1A007C2899 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C48064811C84CC1A007C2899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C48064821C84CC1A007C2899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C48064841C84CC1A007C2899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChaosScattering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = Avi.ChaosScattering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C48064851C84CC1A007C2899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChaosScattering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = Avi.ChaosScattering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C480646D1C84CC1A007C2899 /* Build configuration list for PBXProject "ChaosScattering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48064811C84CC1A007C2899 /* Debug */,
+				C48064821C84CC1A007C2899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48064831C84CC1A007C2899 /* Build configuration list for PBXNativeTarget "ChaosScattering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48064841C84CC1A007C2899 /* Debug */,
+				C48064851C84CC1A007C2899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C480646A1C84CC1A007C2899 /* Project object */;
+}

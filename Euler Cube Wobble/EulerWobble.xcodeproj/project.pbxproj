@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D299AF31CB0A11D001CDD0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D299AF21CB0A11D001CDD0A /* main.m */; };
+		6D299AF51CB0A11D001CDD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D299AF41CB0A11D001CDD0A /* Assets.xcassets */; };
+		6D299AF81CB0A11D001CDD0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D299AF61CB0A11D001CDD0A /* MainMenu.xib */; };
+		6D299B011CB0A288001CDD0A /* CubeView.M in Sources */ = {isa = PBXBuildFile; fileRef = 6D299B001CB0A288001CDD0A /* CubeView.M */; };
+		C4CE8FE11CC808AA001F5780 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4CE8FE01CC808AA001F5780 /* maxresdefault.jpg */; };
+		C4CE8FE31CC8095A001F5780 /* LightSpeed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C4CE8FE21CC8095A001F5780 /* LightSpeed.jpeg */; };
+		C4CE8FE51CC80D3E001F5780 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE8FE41CC80D3E001F5780 /* 1.png */; };
+		C4CE8FE91CC80D44001F5780 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE8FE61CC80D44001F5780 /* 2.png */; };
+		C4CE8FEA1CC80D44001F5780 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE8FE71CC80D44001F5780 /* 3.png */; };
+		C4CE8FEB1CC80D44001F5780 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE8FE81CC80D44001F5780 /* 4.png */; };
+		C4CE8FEF1CC8FD69001F5780 /* BluePrints.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4CE8FEE1CC8FD69001F5780 /* BluePrints.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D299AEB1CB0A11D001CDD0A /* Spring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D299AF21CB0A11D001CDD0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D299AF41CB0A11D001CDD0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D299AF71CB0A11D001CDD0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6D299AF91CB0A11D001CDD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D299AFF1CB0A288001CDD0A /* CubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeView.h; sourceTree = "<group>"; };
+		6D299B001CB0A288001CDD0A /* CubeView.M */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = CubeView.M; sourceTree = "<group>"; };
+		C4CE8FE01CC808AA001F5780 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		C4CE8FE21CC8095A001F5780 /* LightSpeed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LightSpeed.jpeg; sourceTree = "<group>"; };
+		C4CE8FE41CC80D3E001F5780 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		C4CE8FE61CC80D44001F5780 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		C4CE8FE71CC80D44001F5780 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		C4CE8FE81CC80D44001F5780 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		C4CE8FEE1CC8FD69001F5780 /* BluePrints.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BluePrints.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D299AE81CB0A11D001CDD0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D299AE21CB0A11D001CDD0A = {
+			isa = PBXGroup;
+			children = (
+				6D299AED1CB0A11D001CDD0A /* EulerWobble */,
+				6D299AEC1CB0A11D001CDD0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D299AEC1CB0A11D001CDD0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D299AEB1CB0A11D001CDD0A /* Spring.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D299AED1CB0A11D001CDD0A /* EulerWobble */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE8FEE1CC8FD69001F5780 /* BluePrints.jpg */,
+				C4CE8FE41CC80D3E001F5780 /* 1.png */,
+				C4CE8FE61CC80D44001F5780 /* 2.png */,
+				C4CE8FE71CC80D44001F5780 /* 3.png */,
+				C4CE8FE81CC80D44001F5780 /* 4.png */,
+				C4CE8FE01CC808AA001F5780 /* maxresdefault.jpg */,
+				C4CE8FE21CC8095A001F5780 /* LightSpeed.jpeg */,
+				6D299AF41CB0A11D001CDD0A /* Assets.xcassets */,
+				6D299AF61CB0A11D001CDD0A /* MainMenu.xib */,
+				6D299AFF1CB0A288001CDD0A /* CubeView.h */,
+				6D299B001CB0A288001CDD0A /* CubeView.M */,
+				6D299AF91CB0A11D001CDD0A /* Info.plist */,
+				6D299AF11CB0A11D001CDD0A /* Supporting Files */,
+			);
+			name = EulerWobble;
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		6D299AF11CB0A11D001CDD0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D299AF21CB0A11D001CDD0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D299AEA1CB0A11D001CDD0A /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D299AFC1CB0A11D001CDD0A /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				6D299AE71CB0A11D001CDD0A /* Sources */,
+				6D299AE81CB0A11D001CDD0A /* Frameworks */,
+				6D299AE91CB0A11D001CDD0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spring;
+			productName = Spring;
+			productReference = 6D299AEB1CB0A11D001CDD0A /* Spring.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D299AE31CB0A11D001CDD0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "John Lindner";
+				TargetAttributes = {
+					6D299AEA1CB0A11D001CDD0A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6D299AE61CB0A11D001CDD0A /* Build configuration list for PBXProject "EulerWobble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D299AE21CB0A11D001CDD0A;
+			productRefGroup = 6D299AEC1CB0A11D001CDD0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D299AEA1CB0A11D001CDD0A /* Spring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D299AE91CB0A11D001CDD0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CE8FE91CC80D44001F5780 /* 2.png in Resources */,
+				C4CE8FEF1CC8FD69001F5780 /* BluePrints.jpg in Resources */,
+				C4CE8FE31CC8095A001F5780 /* LightSpeed.jpeg in Resources */,
+				6D299AF51CB0A11D001CDD0A /* Assets.xcassets in Resources */,
+				C4CE8FE11CC808AA001F5780 /* maxresdefault.jpg in Resources */,
+				C4CE8FEB1CC80D44001F5780 /* 4.png in Resources */,
+				6D299AF81CB0A11D001CDD0A /* MainMenu.xib in Resources */,
+				C4CE8FEA1CC80D44001F5780 /* 3.png in Resources */,
+				C4CE8FE51CC80D3E001F5780 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D299AE71CB0A11D001CDD0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D299AF31CB0A11D001CDD0A /* main.m in Sources */,
+				6D299B011CB0A288001CDD0A /* CubeView.M in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D299AF61CB0A11D001CDD0A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D299AF71CB0A11D001CDD0A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D299AFA1CB0A11D001CDD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6D299AFB1CB0A11D001CDD0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D299AFD1CB0A11D001CDD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Spring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wooster.Spring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D299AFE1CB0A11D001CDD0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Spring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wooster.Spring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D299AE61CB0A11D001CDD0A /* Build configuration list for PBXProject "EulerWobble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D299AFA1CB0A11D001CDD0A /* Debug */,
+				6D299AFB1CB0A11D001CDD0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D299AFC1CB0A11D001CDD0A /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D299AFD1CB0A11D001CDD0A /* Debug */,
+				6D299AFE1CB0A11D001CDD0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D299AE31CB0A11D001CDD0A /* Project object */;
+}

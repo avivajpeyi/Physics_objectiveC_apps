@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20BBF2A41C7506D4004C34B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BBF2A31C7506D4004C34B2 /* AppDelegate.m */; };
+		20BBF2A71C7506D4004C34B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BBF2A61C7506D4004C34B2 /* main.m */; };
+		20BBF2A91C7506D4004C34B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BBF2A81C7506D4004C34B2 /* Assets.xcassets */; };
+		20BBF2AC1C7506D4004C34B2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20BBF2AA1C7506D4004C34B2 /* MainMenu.xib */; };
+		20BBF2B51C750837004C34B2 /* DuffingSimple.M in Sources */ = {isa = PBXBuildFile; fileRef = 20BBF2B41C750837004C34B2 /* DuffingSimple.M */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20BBF29F1C7506D4004C34B2 /* DuffingSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuffingSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BBF2A21C7506D4004C34B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20BBF2A31C7506D4004C34B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20BBF2A61C7506D4004C34B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20BBF2A81C7506D4004C34B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20BBF2AB1C7506D4004C34B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20BBF2AD1C7506D4004C34B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BBF2B31C750837004C34B2 /* DuffingSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuffingSimple.h; sourceTree = "<group>"; };
+		20BBF2B41C750837004C34B2 /* DuffingSimple.M */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = DuffingSimple.M; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20BBF29C1C7506D4004C34B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20BBF2961C7506D4004C34B2 = {
+			isa = PBXGroup;
+			children = (
+				20BBF2A11C7506D4004C34B2 /* DuffingSimple */,
+				20BBF2A01C7506D4004C34B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20BBF2A01C7506D4004C34B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20BBF29F1C7506D4004C34B2 /* DuffingSimple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20BBF2A11C7506D4004C34B2 /* DuffingSimple */ = {
+			isa = PBXGroup;
+			children = (
+				20BBF2A21C7506D4004C34B2 /* AppDelegate.h */,
+				20BBF2A31C7506D4004C34B2 /* AppDelegate.m */,
+				20BBF2A81C7506D4004C34B2 /* Assets.xcassets */,
+				20BBF2AA1C7506D4004C34B2 /* MainMenu.xib */,
+				20BBF2B31C750837004C34B2 /* DuffingSimple.h */,
+				20BBF2B41C750837004C34B2 /* DuffingSimple.M */,
+				20BBF2AD1C7506D4004C34B2 /* Info.plist */,
+				20BBF2A51C7506D4004C34B2 /* Supporting Files */,
+			);
+			path = DuffingSimple;
+			sourceTree = "<group>";
+		};
+		20BBF2A51C7506D4004C34B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20BBF2A61C7506D4004C34B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20BBF29E1C7506D4004C34B2 /* DuffingSimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BBF2B01C7506D4004C34B2 /* Build configuration list for PBXNativeTarget "DuffingSimple" */;
+			buildPhases = (
+				20BBF29B1C7506D4004C34B2 /* Sources */,
+				20BBF29C1C7506D4004C34B2 /* Frameworks */,
+				20BBF29D1C7506D4004C34B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuffingSimple;
+			productName = DuffingSimple;
+			productReference = 20BBF29F1C7506D4004C34B2 /* DuffingSimple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20BBF2971C7506D4004C34B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Avi Vajpeyi";
+				TargetAttributes = {
+					20BBF29E1C7506D4004C34B2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 20BBF29A1C7506D4004C34B2 /* Build configuration list for PBXProject "DuffingSimple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20BBF2961C7506D4004C34B2;
+			productRefGroup = 20BBF2A01C7506D4004C34B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20BBF29E1C7506D4004C34B2 /* DuffingSimple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20BBF29D1C7506D4004C34B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BBF2A91C7506D4004C34B2 /* Assets.xcassets in Resources */,
+				20BBF2AC1C7506D4004C34B2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20BBF29B1C7506D4004C34B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BBF2B51C750837004C34B2 /* DuffingSimple.M in Sources */,
+				20BBF2A71C7506D4004C34B2 /* main.m in Sources */,
+				20BBF2A41C7506D4004C34B2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20BBF2AA1C7506D4004C34B2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BBF2AB1C7506D4004C34B2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20BBF2AE1C7506D4004C34B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20BBF2AF1C7506D4004C34B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		20BBF2B11C7506D4004C34B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DuffingSimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Avi-Vajpeyi.DuffingSimple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20BBF2B21C7506D4004C34B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DuffingSimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Avi-Vajpeyi.DuffingSimple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20BBF29A1C7506D4004C34B2 /* Build configuration list for PBXProject "DuffingSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BBF2AE1C7506D4004C34B2 /* Debug */,
+				20BBF2AF1C7506D4004C34B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BBF2B01C7506D4004C34B2 /* Build configuration list for PBXNativeTarget "DuffingSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BBF2B11C7506D4004C34B2 /* Debug */,
+				20BBF2B21C7506D4004C34B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20BBF2971C7506D4004C34B2 /* Project object */;
+}

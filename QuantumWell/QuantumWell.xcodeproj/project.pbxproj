@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C48064971C84D918007C2899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48064961C84D918007C2899 /* main.m */; };
+		C48064991C84D918007C2899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48064981C84D918007C2899 /* Assets.xcassets */; };
+		C480649C1C84D918007C2899 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C480649A1C84D918007C2899 /* MainMenu.xib */; };
+		C48064A51C84D9BB007C2899 /* QuantumWell.M in Sources */ = {isa = PBXBuildFile; fileRef = C48064A41C84D9BB007C2899 /* QuantumWell.M */; };
+		C49C6DFD1C87D2F3004C721E /* WilhelmScream.aiff in Resources */ = {isa = PBXBuildFile; fileRef = C49C6DFC1C87D2F3004C721E /* WilhelmScream.aiff */; };
+		C49C6E031C87E04C004C721E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C49C6E021C87E04C004C721E /* background.jpg */; };
+		C49C6E081C8933A6004C721E /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C49C6E071C8933A6004C721E /* sound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C480648F1C84D918007C2899 /* QuantumWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantumWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48064961C84D918007C2899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C48064981C84D918007C2899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C480649B1C84D918007C2899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C480649D1C84D918007C2899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48064A31C84D9BB007C2899 /* QuantumWell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantumWell.h; sourceTree = "<group>"; };
+		C48064A41C84D9BB007C2899 /* QuantumWell.M */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = QuantumWell.M; sourceTree = "<group>"; };
+		C49C6DFC1C87D2F3004C721E /* WilhelmScream.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = WilhelmScream.aiff; sourceTree = "<group>"; };
+		C49C6E021C87E04C004C721E /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		C49C6E071C8933A6004C721E /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C480648C1C84D918007C2899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48064861C84D918007C2899 = {
+			isa = PBXGroup;
+			children = (
+				C48064A31C84D9BB007C2899 /* QuantumWell.h */,
+				C48064A41C84D9BB007C2899 /* QuantumWell.M */,
+				C48064911C84D918007C2899 /* QuantumWell */,
+				C48064901C84D918007C2899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48064901C84D918007C2899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C480648F1C84D918007C2899 /* QuantumWell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48064911C84D918007C2899 /* QuantumWell */ = {
+			isa = PBXGroup;
+			children = (
+				C49C6E021C87E04C004C721E /* background.jpg */,
+				C49C6E071C8933A6004C721E /* sound.mp3 */,
+				C49C6DFC1C87D2F3004C721E /* WilhelmScream.aiff */,
+				C48064981C84D918007C2899 /* Assets.xcassets */,
+				C480649A1C84D918007C2899 /* MainMenu.xib */,
+				C480649D1C84D918007C2899 /* Info.plist */,
+				C48064951C84D918007C2899 /* Supporting Files */,
+			);
+			path = QuantumWell;
+			sourceTree = "<group>";
+		};
+		C48064951C84D918007C2899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48064961C84D918007C2899 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C480648E1C84D918007C2899 /* QuantumWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48064A01C84D918007C2899 /* Build configuration list for PBXNativeTarget "QuantumWell" */;
+			buildPhases = (
+				C480648B1C84D918007C2899 /* Sources */,
+				C480648C1C84D918007C2899 /* Frameworks */,
+				C480648D1C84D918007C2899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuantumWell;
+			productName = QuantumWell;
+			productReference = C480648F1C84D918007C2899 /* QuantumWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48064871C84D918007C2899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AVI;
+				TargetAttributes = {
+					C480648E1C84D918007C2899 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C480648A1C84D918007C2899 /* Build configuration list for PBXProject "QuantumWell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C48064861C84D918007C2899;
+			productRefGroup = C48064901C84D918007C2899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C480648E1C84D918007C2899 /* QuantumWell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C480648D1C84D918007C2899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48064991C84D918007C2899 /* Assets.xcassets in Resources */,
+				C480649C1C84D918007C2899 /* MainMenu.xib in Resources */,
+				C49C6DFD1C87D2F3004C721E /* WilhelmScream.aiff in Resources */,
+				C49C6E031C87E04C004C721E /* background.jpg in Resources */,
+				C49C6E081C8933A6004C721E /* sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C480648B1C84D918007C2899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48064971C84D918007C2899 /* main.m in Sources */,
+				C48064A51C84D9BB007C2899 /* QuantumWell.M in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C480649A1C84D918007C2899 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C480649B1C84D918007C2899 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C480649E1C84D918007C2899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C480649F1C84D918007C2899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C48064A11C84D918007C2899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QuantumWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Avi.QuantumWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C48064A21C84D918007C2899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QuantumWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Avi.QuantumWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C480648A1C84D918007C2899 /* Build configuration list for PBXProject "QuantumWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C480649E1C84D918007C2899 /* Debug */,
+				C480649F1C84D918007C2899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48064A01C84D918007C2899 /* Build configuration list for PBXNativeTarget "QuantumWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48064A11C84D918007C2899 /* Debug */,
+				C48064A21C84D918007C2899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48064871C84D918007C2899 /* Project object */;
+}

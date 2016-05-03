@@ -1,0 +1,85 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University/School Laboratory Report
+% LaTeX Template
+% Version 3.1 (25/3/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Linux and Unix Users Group at Virginia Tech Wiki 
+% (https://vtluug.org/wiki/Example_LaTeX_chem_lab_report)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{gensymb}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+
+%Code packages
+
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+% Code packages end
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Quantum Scattering Report\\ Class Fifteen Summary\\ PHY 230} % Title
+
+\author{Avi \textsc{Vajpeyi}} % Author name
+
+\date{\today} % Date for the report
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+
+
+
+% If you wish to include an abstract, uncomment the lines below
+% \begin{abstract}
+% Abstract text
+% \end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{The Quantum Scattering Application}
+
+
+
+For the week before the break, we had been working on a really neat objective c application, of an interactive quantum wave packet simulation. The simulation has three potentials that the wave is traversing through.\\
+
+ Initially, I was having trouble and some frustrations with this project right at the beginning - when I was trying to draw the initial wave packet. The formula I had written appeared to be correct to me, and I could not see any error in my work. However, the packet was not appearing on the screen! I compared my work with Jack and Matt, who were having similar issues, and we tried to work it out together. However, we were unable to figure it out. Eventually, Dr. Lindner came to my rescue and pointed out that my initial position for the wave packet was actually outside the screen. This left me in quite a dumbfound state, as I had spent a long time trying to fix this `error'. \\
+ 
+ I was able to get my wave to move, and be bounced back as desired with the help of an `animate' function, which was very similar to one which I had written for a previous assignment (`waves on strings'). However, I was having trouble figuring out how to get the wave to automatically reset once the wave reached the ends of the simulation's universe. I had assumed that the wave should be reset when the magnitude of Psi at the ends of the universe was a value greater than zero. However, this occurred much earlier than the point when the wave reached the end of the universe. I emailed Jack and asked for his suggestion, and he told me that he had done something very similar to what I was doing, however he said that he was comparing the value of Psi at the ends of the universe to a very small value, close to zero. Not exactly zero. This made me realise that the value of Psi may not actually be zero for the entire time until the wave reached the ends of the universe! Hence, with his suggestion, and some testing, I was able to get the wave to reset once it reached the ends of the universe.
+ 
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
